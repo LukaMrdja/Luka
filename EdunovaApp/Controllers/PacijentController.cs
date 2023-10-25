@@ -11,17 +11,19 @@ namespace EdunovaApp.Controllers
     /// </summary>
     [ApiController]
     [Route("api/v1/[controller]")]
-    [Authorize]
+    
     public class PacijentController : ControllerBase
     {
 
         // Dependency injection u controller
         // https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/adding-model?view=aspnetcore-7.0&tabs=visual-studio#dependency-injection
         private readonly EdunovaContext _context;
+        private readonly ILogger<PacijentController> _logger;
 
-        public PacijentController(EdunovaContext context)
+        public PacijentController(EdunovaContext context, ILogger<PacijentController> logger)
         {
             _context = context;
+            _logger = logger;
         }
 
         /// <summary>
@@ -52,7 +54,7 @@ namespace EdunovaApp.Controllers
                 {
                     return new EmptyResult();
                 }
-                return new JsonResult(Pacijent);
+                return new JsonResult(_context.Pacijent.ToList());
             }
             catch (Exception ex)
             {
@@ -150,7 +152,8 @@ namespace EdunovaApp.Controllers
         /// }
         ///
         /// </remarks>
-        /// <param name="sifra">Šifra smjera koji se mijenja</param>  
+        /// <param name="sifra">Šifra smjera koji se mijenja</param>
+        /// <param name="Pacijent"></param>  
         /// <returns>Svi poslani podaci od smjera</returns>
         /// <response code="200">Sve je u redu</response>
         /// <response code="204">Nema u bazi smjera kojeg želimo promijeniti</response>

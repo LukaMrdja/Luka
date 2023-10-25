@@ -59,7 +59,8 @@
              }
             
              </remarks>
-             <param name="sifra">Šifra smjera koji se mijenja</param>  
+             <param name="sifra">Šifra smjera koji se mijenja</param>
+             <param name="Pacijent"></param>  
              <returns>Svi poslani podaci od smjera</returns>
              <response code="200">Sve je u redu</response>
              <response code="204">Nema u bazi smjera kojeg želimo promijeniti</response>

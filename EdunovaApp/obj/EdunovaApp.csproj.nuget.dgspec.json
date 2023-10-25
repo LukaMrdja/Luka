@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Polaznik\\Downloads\\EdunovaWP1\\EdunovaWP1-main\\CSHARP\\EdunovaWebAPI\\EdunovaApp\\EdunovaApp.csproj": {}
+    "C:\\Users\\Polaznik\\Desktop\\Luka-main\\EdunovaApp\\EdunovaApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Polaznik\\Downloads\\EdunovaWP1\\EdunovaWP1-main\\CSHARP\\EdunovaWebAPI\\EdunovaApp\\EdunovaApp.csproj": {
+    "C:\\Users\\Polaznik\\Desktop\\Luka-main\\EdunovaApp\\EdunovaApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Polaznik\\Downloads\\EdunovaWP1\\EdunovaWP1-main\\CSHARP\\EdunovaWebAPI\\EdunovaApp\\EdunovaApp.csproj",
+        "projectUniqueName": "C:\\Users\\Polaznik\\Desktop\\Luka-main\\EdunovaApp\\EdunovaApp.csproj",
         "projectName": "EdunovaApp",
-        "projectPath": "C:\\Users\\Polaznik\\Downloads\\EdunovaWP1\\EdunovaWP1-main\\CSHARP\\EdunovaWebAPI\\EdunovaApp\\EdunovaApp.csproj",
+        "projectPath": "C:\\Users\\Polaznik\\Desktop\\Luka-main\\EdunovaApp\\EdunovaApp.csproj",
         "packagesPath": "C:\\Users\\Polaznik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Polaznik\\Downloads\\EdunovaWP1\\EdunovaWP1-main\\CSHARP\\EdunovaWebAPI\\EdunovaApp\\obj\\",
+        "outputPath": "C:\\Users\\Polaznik\\Desktop\\Luka-main\\EdunovaApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Polaznik\\AppData\\Roaming\\NuGet\\NuGet.Config",

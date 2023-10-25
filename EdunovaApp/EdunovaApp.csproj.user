@@ -2,6 +2,6 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ActiveDebugProfile>https</ActiveDebugProfile>
-    <NameOfLastUsedPublishProfile>C:\Users\Katedra\Documents\GitHub\EdunovaWP1\CSHARP\EdunovaWebAPI\EdunovaApp\Properties\PublishProfiles\tjakopec-001-site1 - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\Users\Polaznik\Desktop\Luka-main\EdunovaApp\Properties\PublishProfiles\lukamrdja-001-site1 - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

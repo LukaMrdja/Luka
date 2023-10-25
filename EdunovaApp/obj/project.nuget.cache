@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o9Tqr5trMH+AgAw7pH2He2BFMayPuVxvhBbixk1soB0SnBIKck9XrPjRGNiaom8qGtmfs2gd1ScKIVwcQWzueg==",
+  "dgSpecHash": "IH8ALJshhYeewnTJFO7iYbMSePJqDNf5QVsp2g0ai8IoqVzFd0F5i3etK2anZ6bO6e+GosfF/gO9qDtkQHrLyA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Polaznik\\Downloads\\EdunovaWP1\\EdunovaWP1-main\\CSHARP\\EdunovaWebAPI\\EdunovaApp\\EdunovaApp.csproj",
+  "projectFilePath": "C:\\Users\\Polaznik\\Desktop\\Luka-main\\EdunovaApp\\EdunovaApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Polaznik\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Polaznik\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
