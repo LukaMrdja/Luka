@@ -1,0 +1,117 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Luka\\OneDrive\\Dokumenti\\GitHub\\Luka\\Luka-main\\EdunovaApp\\wwwroot\\asset-manifest.json",
+      "PackagePath": "staticwebassets\\asset-manifest.json"
+    },
+    {
+      "Id": "C:\\Users\\Luka\\OneDrive\\Dokumenti\\GitHub\\Luka\\Luka-main\\EdunovaApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Luka\\OneDrive\\Dokumenti\\GitHub\\Luka\\Luka-main\\EdunovaApp\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Luka\\OneDrive\\Dokumenti\\GitHub\\Luka\\Luka-main\\EdunovaApp\\wwwroot\\logo192.png",
+      "PackagePath": "staticwebassets\\logo192.png"
+    },
+    {
+      "Id": "C:\\Users\\Luka\\OneDrive\\Dokumenti\\GitHub\\Luka\\Luka-main\\EdunovaApp\\wwwroot\\logo512.png",
+      "PackagePath": "staticwebassets\\logo512.png"
+    },
+    {
+      "Id": "C:\\Users\\Luka\\OneDrive\\Dokumenti\\GitHub\\Luka\\Luka-main\\EdunovaApp\\wwwroot\\manifest.json",
+      "PackagePath": "staticwebassets\\manifest.json"
+    },
+    {
+      "Id": "C:\\Users\\Luka\\OneDrive\\Dokumenti\\GitHub\\Luka\\Luka-main\\EdunovaApp\\wwwroot\\robots.txt",
+      "PackagePath": "staticwebassets\\robots.txt"
+    },
+    {
+      "Id": "C:\\Users\\Luka\\OneDrive\\Dokumenti\\GitHub\\Luka\\Luka-main\\EdunovaApp\\wwwroot\\service-worker.js",
+      "PackagePath": "staticwebassets\\service-worker.js"
+    },
+    {
+      "Id": "C:\\Users\\Luka\\OneDrive\\Dokumenti\\GitHub\\Luka\\Luka-main\\EdunovaApp\\wwwroot\\service-worker.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\service-worker.js.LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Luka\\OneDrive\\Dokumenti\\GitHub\\Luka\\Luka-main\\EdunovaApp\\wwwroot\\service-worker.js.map",
+      "PackagePath": "staticwebassets\\service-worker.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Luka\\OneDrive\\Dokumenti\\GitHub\\Luka\\Luka-main\\EdunovaApp\\wwwroot\\static\\css\\main.bf017070.css",
+      "PackagePath": "staticwebassets\\static\\css\\main.bf017070.css"
+    },
+    {
+      "Id": "C:\\Users\\Luka\\OneDrive\\Dokumenti\\GitHub\\Luka\\Luka-main\\EdunovaApp\\wwwroot\\static\\css\\main.bf017070.css.map",
+      "PackagePath": "staticwebassets\\static\\css\\main.bf017070.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Luka\\OneDrive\\Dokumenti\\GitHub\\Luka\\Luka-main\\EdunovaApp\\wwwroot\\static\\css\\main.d1d1cfa5.css",
+      "PackagePath": "staticwebassets\\static\\css\\main.d1d1cfa5.css"
+    },
+    {
+      "Id": "C:\\Users\\Luka\\OneDrive\\Dokumenti\\GitHub\\Luka\\Luka-main\\EdunovaApp\\wwwroot\\static\\css\\main.d1d1cfa5.css.map",
+      "PackagePath": "staticwebassets\\static\\css\\main.d1d1cfa5.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Luka\\OneDrive\\Dokumenti\\GitHub\\Luka\\Luka-main\\EdunovaApp\\wwwroot\\static\\js\\787.2d0ebaa6.chunk.js",
+      "PackagePath": "staticwebassets\\static\\js\\787.2d0ebaa6.chunk.js"
+    },
+    {
+      "Id": "C:\\Users\\Luka\\OneDrive\\Dokumenti\\GitHub\\Luka\\Luka-main\\EdunovaApp\\wwwroot\\static\\js\\787.2d0ebaa6.chunk.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\787.2d0ebaa6.chunk.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Luka\\OneDrive\\Dokumenti\\GitHub\\Luka\\Luka-main\\EdunovaApp\\wwwroot\\static\\js\\main.8e97281e.js",
+      "PackagePath": "staticwebassets\\static\\js\\main.8e97281e.js"
+    },
+    {
+      "Id": "C:\\Users\\Luka\\OneDrive\\Dokumenti\\GitHub\\Luka\\Luka-main\\EdunovaApp\\wwwroot\\static\\js\\main.8e97281e.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\static\\js\\main.8e97281e.js.LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Luka\\OneDrive\\Dokumenti\\GitHub\\Luka\\Luka-main\\EdunovaApp\\wwwroot\\static\\js\\main.8e97281e.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\main.8e97281e.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Luka\\OneDrive\\Dokumenti\\GitHub\\Luka\\Luka-main\\EdunovaApp\\wwwroot\\static\\js\\main.f41c7a2b.js",
+      "PackagePath": "staticwebassets\\static\\js\\main.f41c7a2b.js"
+    },
+    {
+      "Id": "C:\\Users\\Luka\\OneDrive\\Dokumenti\\GitHub\\Luka\\Luka-main\\EdunovaApp\\wwwroot\\static\\js\\main.f41c7a2b.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\static\\js\\main.f41c7a2b.js.LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Luka\\OneDrive\\Dokumenti\\GitHub\\Luka\\Luka-main\\EdunovaApp\\wwwroot\\static\\js\\main.f41c7a2b.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\main.f41c7a2b.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Luka\\OneDrive\\Dokumenti\\GitHub\\Luka\\Luka-main\\EdunovaApp\\wwwroot\\static\\media\\logo.103b5fa18196d5665a7e12318285c916.svg",
+      "PackagePath": "staticwebassets\\static\\media\\logo.103b5fa18196d5665a7e12318285c916.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luka\\OneDrive\\Dokumenti\\GitHub\\Luka\\Luka-main\\EdunovaApp\\wwwroot\\static\\media\\logo.cd39162d86cb9ddb6b99ef60742e6ab4.svg",
+      "PackagePath": "staticwebassets\\static\\media\\logo.cd39162d86cb9ddb6b99ef60742e6ab4.svg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.EdunovaApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.EdunovaApp.props",
+      "PackagePath": "build\\EdunovaApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.EdunovaApp.props",
+      "PackagePath": "buildMultiTargeting\\EdunovaApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.EdunovaApp.props",
+      "PackagePath": "buildTransitive\\EdunovaApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
