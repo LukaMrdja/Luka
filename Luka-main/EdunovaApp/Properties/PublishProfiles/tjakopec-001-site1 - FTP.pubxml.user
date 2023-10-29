@@ -8,7 +8,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword />
     <_PublishTargetUrl>ftp://win6047.site4now.net:21/edunova</_PublishTargetUrl>
-    <History>True|2023-10-04T16:24:05.6003356Z;False|2023-10-04T18:23:20.8586149+02:00;</History>
+    <History>False|2023-10-29T20:26:53.2629068Z;False|2023-10-29T20:45:37.6785381+01:00;True|2023-10-04T18:24:05.6003356+02:00;False|2023-10-04T18:23:20.8586149+02:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
@@ -43,13 +43,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/04/2023 18:23:29</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.OpenApi.dll">
-      <publishTime>07/15/2023 04:54:08</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Bcl.AsyncInterfaces.dll">
-      <publishTime>04/15/2020 00:39:12</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Data.SqlClient.dll">
-      <publishTime>03/31/2023 19:51:28</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.EntityFrameworkCore.Abstractions.dll">
       <publishTime>12/07/2023 22:37:50</publishTime>
@@ -64,7 +64,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/07/2023 22:38:24</publishTime>
     </File>
     <File Include="Microsoft.Identity.Client.dll">
-      <publishTime>06/22/2022 21:59:58</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Identity.Client.Extensions.Msal.dll">
       <publishTime>01/01/0001 00:00:00</publishTime>
@@ -88,19 +88,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/07/2022 20:33:46</publishTime>
     </File>
     <File Include="Microsoft.OpenApi.dll">
-      <publishTime>09/26/2022 14:32:38</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.SqlServer.Server.dll">
-      <publishTime>01/27/2022 18:19:08</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Win32.SystemEvents.dll">
-      <publishTime>10/19/2020 20:40:26</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll">
-      <publishTime>10/19/2020 20:49:58</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll">
-      <publishTime>03/31/2023 19:51:28</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll">
       <publishTime>04/10/2022 00:45:42</publishTime>
@@ -115,22 +115,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/10/2022 00:45:32</publishTime>
     </File>
     <File Include="runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll">
-      <publishTime>10/19/2020 20:52:12</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll">
-      <publishTime>10/19/2020 20:53:02</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll">
-      <publishTime>10/19/2020 20:53:36</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll">
-      <publishTime>03/31/2023 19:51:44</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll">
-      <publishTime>10/19/2020 20:52:44</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll">
-      <publishTime>10/19/2020 20:49:30</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Swashbuckle.AspNetCore.Swagger.dll">
       <publishTime>01/11/2023 07:48:22</publishTime>
@@ -142,10 +142,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/11/2023 07:49:02</publishTime>
     </File>
     <File Include="System.Configuration.ConfigurationManager.dll">
-      <publishTime>10/19/2020 20:52:30</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="System.Drawing.Common.dll">
-      <publishTime>10/19/2020 20:50:02</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="System.IdentityModel.Tokens.Jwt.dll">
       <publishTime>01/07/2022 20:23:04</publishTime>
@@ -154,16 +154,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/04/2021 18:45:54</publishTime>
     </File>
     <File Include="System.Runtime.Caching.dll">
-      <publishTime>10/19/2020 20:52:34</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="System.Security.Cryptography.ProtectedData.dll">
-      <publishTime>10/19/2020 20:52:26</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="System.Security.Permissions.dll">
-      <publishTime>10/19/2020 20:52:36</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="System.Windows.Extensions.dll">
-      <publishTime>10/19/2020 20:53:38</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="web.config">
       <publishTime>10/04/2023 18:23:37</publishTime>

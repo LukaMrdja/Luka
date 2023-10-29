@@ -68,16 +68,16 @@ namespace EdunovaApp.Controllers
 
 
         [HttpGet]
-        [Route("{sifra:int}")]
-        public IActionResult GetBySifra(int sifra) { 
+        [Route("{id:int}")]
+        public IActionResult GetBySifra(int id) { 
         
-            if (sifra <= 0)
+            if (id <= 0)
             {
                 return BadRequest(ModelState);
             }
 
             try {
-                var s = _context.Pacijent.Find(sifra);
+                var s = _context.Pacijent.Find(id);
 
                 if (s == null)
                 {
@@ -163,33 +163,33 @@ namespace EdunovaApp.Controllers
         /// <response code="415">Nismo poslali JSON</response> 
         /// <response code="503">Na azure treba dodati IP u firewall</response> 
         [HttpPut]
-        [Route("{sifra:int}")]
-        public IActionResult Put(int sifra, Pacijent Pacijent) 
+        [Route("{id:int}")]
+        public IActionResult Put(int id, Pacijent Pacijent) 
             {
         
-            if (sifra<=0 || Pacijent==null)
+            if (id <= 0 || Pacijent==null)
             {
                 return BadRequest();
             }
 
             try
             {
-                var smjerBaza = _context.Pacijent.Find(sifra);
-                if (smjerBaza == null)
+                var pacijentBaza = _context.Pacijent.Find(id);
+                if (pacijentBaza == null)
                 {
                     return BadRequest();
                 }
                 // inače se rade Mapper-i
                 // mi ćemo za sada ručno
-                smjerBaza.Ime = Pacijent.Ime;
-                smjerBaza.Prezime = Pacijent.Prezime;
-                smjerBaza.telefon = Pacijent.telefon;
-                smjerBaza.BrojZk = Pacijent.BrojZk;             
+                pacijentBaza.ime = Pacijent.ime;
+                pacijentBaza.prezime = Pacijent.prezime;
+                pacijentBaza.telefon = Pacijent.telefon;
+                pacijentBaza.brojZk = Pacijent.brojZk;             
 
-                _context.Pacijent.Update(smjerBaza);
+                _context.Pacijent.Update(pacijentBaza);
                 _context.SaveChanges();
 
-                return StatusCode(StatusCodes.Status200OK, smjerBaza);
+                return StatusCode(StatusCodes.Status200OK, pacijentBaza);
 
             }
             catch (Exception ex)
@@ -218,24 +218,24 @@ namespace EdunovaApp.Controllers
         /// <response code="415">Nismo poslali JSON</response> 
         /// <response code="503">Na azure treba dodati IP u firewall</response> 
         [HttpDelete]
-        [Route("{sifra:int}")]
+        [Route("{id:int}")]
         [Produces("application/json")]
-        public IActionResult Delete(int sifra)
+        public IActionResult Delete(int id)
         {
-            if (sifra <= 0)
+            if (id <= 0)
             {
                 return BadRequest();
             }
 
-            var smjerBaza = _context.Pacijent.Find(sifra);
-            if (smjerBaza == null)
+            var pacijentBaza = _context.Pacijent.Find(id);
+            if (pacijentBaza == null)
             {
                 return BadRequest();
             }
 
             try
             {
-                _context.Pacijent.Remove(smjerBaza);
+                _context.Pacijent.Remove(pacijentBaza);
                 _context.SaveChanges();
 
                 return new JsonResult("{\"poruka\":\"Obrisano\"}");
@@ -245,7 +245,7 @@ namespace EdunovaApp.Controllers
             {
 
                 return StatusCode(StatusCodes.Status400BadRequest,
-                                  "Ne može se obrisati smjer jer ima na sebi grupe");
+                                  "Ne može se obrisati ");
 
                // new JsonResult("{\"poruka\":\"Ne može se obrisati\"}");
 

@@ -18,5 +18,8 @@
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.12" />
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Validations\" />
+  </ItemGroup>
 
 </Project>

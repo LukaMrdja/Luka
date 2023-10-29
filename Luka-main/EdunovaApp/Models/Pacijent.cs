@@ -1,20 +1,16 @@
-﻿using EdunovaApp.Validations;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace EdunovaApp.Models
 {
     public class Pacijent : Entitet
     {
-        [Required(ErrorMessage ="Naziv obavezno")]
-        public string? Ime { get; set; }
+        [Required(ErrorMessage ="Ime obavezno")]
+        public string? ime { get; set; }
 
-        public string? Prezime { get; set; }
-
-
+        public string? prezime { get; set; }
 
         public string? telefon { get; set; }
 
-
-        public string? BrojZk { get; set; }
+        public string? brojZk { get; set; }
     }
 }
